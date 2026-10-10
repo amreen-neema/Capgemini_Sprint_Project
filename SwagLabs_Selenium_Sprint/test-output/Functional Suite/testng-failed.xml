@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Functional Suite]">
+  <test thread-count="5" name="Functional Tests(failed)">
+    <groups>
+      <run>
+        <include name="FT"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="SwagLabLogin.Login_testcase">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="invalidLogin"/>
+        </methods>
+      </class> <!-- SwagLabLogin.Login_testcase -->
+      <class name="SwaglabProduct.Product_testcase">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="validProduct"/>
+          <include name="productAvailability"/>
+        </methods>
+      </class> <!-- SwaglabProduct.Product_testcase -->
+    </classes>
+  </test> <!-- Functional Tests(failed) -->
+</suite> <!-- Failed suite [Functional Suite] -->

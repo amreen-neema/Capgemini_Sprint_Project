@@ -1,0 +1,203 @@
+<html>
+<head>
+<title>TestNG:  Parallel Tests</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Parallel Tests</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>7/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Oct 09 13:25:07 IST 2026</td>
+</tr>
+<tr><td>Total time:</td><td>46 seconds (46840 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='SwagLabLogin.Login_testcase.validLogin()'><b>validLogin</b><br>Test class: SwagLabLogin.Login_testcase<br/>
+<a href="#Output-1358093350" onClick='toggleBox("Output-1358093350", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1358093350" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1358093350">
+=================================<br/>
+Test Case Started - TS1<br/>
+=================================<br/>
+Username = standard_user<br/>
+Password = secret_sauce<br/>
+Expected = Success<br/>
+URL after login = https://www.saucedemo.com/inventory.html<br/>
+TS1 - Valid Login Passed<br/>
+Test Case Completed - TS1<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>SwagLabLogin.Login_testcase@38d8f54a</td></tr>
+<tr>
+<td title='SwagLabCheckOut.CheckOut_testcase.checkoutWithoutDetails()'><b>checkoutWithoutDetails</b><br>Test class: SwagLabCheckOut.CheckOut_testcase<br/>
+<a href="#Output-1862049099" onClick='toggleBox("Output-1862049099", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1862049099" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1862049099">
+====================================<br/>
+TC3 - Empty Checkout Details Started<br/>
+====================================<br/>
+URL after login = https://www.saucedemo.com/inventory.html<br/>
+TC3 - Empty Checkout validation completed<br/>
+</div>
+</td>
+<td></td>
+<td>7</td>
+<td>SwagLabCheckOut.CheckOut_testcase@78691363</td></tr>
+<tr>
+<td title='SwaglabProduct.Product_testcase.validProduct()'><b>validProduct</b><br>Test class: SwaglabProduct.Product_testcase<br/>
+<a href="#Output-442719866" onClick='toggleBox("Output-442719866", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-442719866" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-442719866">
+Test Case Started - Product TS1<br/>
+Username = standard_user<br/>
+Password = secret_sauce<br/>
+Product Page displayed successfully<br/>
+Test Case Completed - Product TS1<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>SwaglabProduct.Product_testcase@1bb5a082</td></tr>
+<tr>
+<td title='SwagLabCheckOut.CheckOut_testcase.validCheckoutDetails()'><b>validCheckoutDetails</b><br>Test class: SwagLabCheckOut.CheckOut_testcase<br/>
+<a href="#Output-234332651" onClick='toggleBox("Output-234332651", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-234332651" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-234332651">
+====================================<br/>
+TC1 - Valid Checkout Started<br/>
+====================================<br/>
+Username = standard_user<br/>
+Password = secret_sauce<br/>
+URL after login = https://www.saucedemo.com/inventory.html<br/>
+TC1 - Checkout details entered successfully<br/>
+TC1 - Valid Checkout Passed<br/>
+</div>
+</td>
+<td></td>
+<td>15</td>
+<td>SwagLabCheckOut.CheckOut_testcase@78691363</td></tr>
+<tr>
+<td title='SwagLabCheckOut.CheckOut_testcase.checkoutWithoutFirstName()'><b>checkoutWithoutFirstName</b><br>Test class: SwagLabCheckOut.CheckOut_testcase<br/>
+<a href="#Output-1540571231" onClick='toggleBox("Output-1540571231", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1540571231" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1540571231">
+====================================<br/>
+TC2 - Empty First Name Started<br/>
+====================================<br/>
+URL after login = https://www.saucedemo.com/inventory.html<br/>
+TC2 - Empty First Name validation completed<br/>
+</div>
+</td>
+<td></td>
+<td>8</td>
+<td>SwagLabCheckOut.CheckOut_testcase@78691363</td></tr>
+<tr>
+<td title='SwagLabLogin.Login_testcase.invalidLogin()'><b>invalidLogin</b><br>Test class: SwagLabLogin.Login_testcase<br/>
+<a href="#Output-112807764" onClick='toggleBox("Output-112807764", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-112807764" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-112807764">
+=================================<br/>
+Test Case Started - TS2<br/>
+=================================<br/>
+Username = wrong_user<br/>
+Password = wrong_password<br/>
+Expected = Error<br/>
+URL after login = https://www.saucedemo.com/<br/>
+TS2 - Invalid Login Passed<br/>
+Test Case Completed - TS2<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>SwagLabLogin.Login_testcase@38d8f54a</td></tr>
+<tr>
+<td title='SwaglabProduct.Product_testcase.productAvailability()'><b>productAvailability</b><br>Test class: SwaglabProduct.Product_testcase<br/>
+<a href="#Output-729901343" onClick='toggleBox("Output-729901343", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-729901343" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-729901343">
+Test Case Started - Product TS2<br/>
+Username = standard_user<br/>
+Password = secret_sauce<br/>
+Backpack added to cart successfully<br/>
+Test Case Completed - Product TS2<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>SwaglabProduct.Product_testcase@1bb5a082</td></tr>
+</table><p>
+</body>
+</html>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="SwagLabs Suite">
+
+    <test name="SwagLabs Tests">
+
+        <classes>
+
+            <class name="SwagLabLogin.Login_testcase"/>
+            <class name="SwagLabProduct.Product_testcase"/>
+            <class name="SwagLabCart.AddToCart_testcase"/>
+            <class name="SwagLabCheckout.Checkout_testcase"/>
+
+        </classes>
+
+    </test>
+
+</suite>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <groups>
+  	<run>
+  		<include name="YT"></include>
+  	</run>
+  </groups>
+    <classes>
+      <class name="SwagLabLogin.Login_testcase"/>
+      <class name="SwaglabProduct.Product_testcase"/>
+      <class name="SwagLabCheckOut.CheckOut_testcase"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

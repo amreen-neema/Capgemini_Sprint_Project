@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<suite name="SwagLabs Parallel Suite">
+
+    <test name="Parallel Tests" parallel="classes" thread-count="3">
+        <classes>
+            <class name="SwagLabLogin.Login_testcase"/>
+            <class name="SwaglabProduct.Product_testcase"/>
+            <class name="SwagLabCheckOut.CheckOut_testcase"/>
+        </classes>
+    </test>
+
+</suite>
