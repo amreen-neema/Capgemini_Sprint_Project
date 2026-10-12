@@ -59,7 +59,7 @@
       <![CDATA[TC3 - Empty Checkout validation completed]]>
     </line>
   </reporter-output>
-  <suite started-at="2026-10-09T17:39:36 IST" name="Negative Suite" finished-at="2026-10-09T17:40:12 IST" duration-ms="35963">
+  <suite started-at="2026-10-11T17:25:02 IST" name="Negative Suite" finished-at="2026-10-11T17:25:39 IST" duration-ms="36745">
     <groups>
       <group name="NT">
         <method signature="CheckOut_testcase.checkoutWithoutFirstName()[pri:2, instance:SwagLabCheckOut.CheckOut_testcase@618b19ad]" name="checkoutWithoutFirstName" class="SwagLabCheckOut.CheckOut_testcase"/>
@@ -77,9 +77,9 @@
         <method signature="CheckOut_testcase.checkoutWithoutDetails()[pri:3, instance:SwagLabCheckOut.CheckOut_testcase@618b19ad]" name="checkoutWithoutDetails" class="SwagLabCheckOut.CheckOut_testcase"/>
       </group> <!-- FT -->
     </groups>
-    <test started-at="2026-10-09T17:39:36 IST" name="Negative Test" finished-at="2026-10-09T17:40:12 IST" duration-ms="35963">
+    <test started-at="2026-10-11T17:25:02 IST" name="Negative Test" finished-at="2026-10-11T17:25:39 IST" duration-ms="36745">
       <class name="SwagLabLogin.Login_testcase">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:SwagLabLogin.Login_testcase@3023df74]" started-at="2026-10-09T17:39:36 IST" name="setup" finished-at="2026-10-09T17:39:42 IST" duration-ms="5889" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:SwagLabLogin.Login_testcase@3023df74]" started-at="2026-10-11T17:25:02 IST" name="setup" finished-at="2026-10-11T17:25:09 IST" duration-ms="6515" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -90,7 +90,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="invalidLogin()[pri:2, instance:SwagLabLogin.Login_testcase@3023df74]" started-at="2026-10-09T17:39:42 IST" name="invalidLogin" finished-at="2026-10-09T17:39:47 IST" duration-ms="4880" status="PASS">
+        <test-method signature="invalidLogin()[pri:2, instance:SwagLabLogin.Login_testcase@3023df74]" started-at="2026-10-11T17:25:09 IST" name="invalidLogin" finished-at="2026-10-11T17:25:13 IST" duration-ms="4799" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[=================================]]>
@@ -121,7 +121,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- invalidLogin -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:SwagLabLogin.Login_testcase@3023df74]" started-at="2026-10-09T17:39:47 IST" name="tearDown" finished-at="2026-10-09T17:39:48 IST" duration-ms="916" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:SwagLabLogin.Login_testcase@3023df74]" started-at="2026-10-11T17:25:13 IST" name="tearDown" finished-at="2026-10-11T17:25:14 IST" duration-ms="854" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -134,7 +134,7 @@
         </test-method> <!-- tearDown -->
       </class> <!-- SwagLabLogin.Login_testcase -->
       <class name="SwagLabCheckOut.CheckOut_testcase">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:SwagLabCheckOut.CheckOut_testcase@618b19ad]" started-at="2026-10-09T17:39:48 IST" name="setup" finished-at="2026-10-09T17:39:51 IST" duration-ms="3113" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:SwagLabCheckOut.CheckOut_testcase@618b19ad]" started-at="2026-10-11T17:25:14 IST" name="setup" finished-at="2026-10-11T17:25:18 IST" duration-ms="4144" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -145,7 +145,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="checkoutWithoutFirstName()[pri:2, instance:SwagLabCheckOut.CheckOut_testcase@618b19ad]" started-at="2026-10-09T17:39:51 IST" name="checkoutWithoutFirstName" finished-at="2026-10-09T17:39:59 IST" duration-ms="8243" status="PASS">
+        <test-method signature="checkoutWithoutFirstName()[pri:2, instance:SwagLabCheckOut.CheckOut_testcase@618b19ad]" started-at="2026-10-11T17:25:18 IST" name="checkoutWithoutFirstName" finished-at="2026-10-11T17:25:27 IST" duration-ms="8289" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[====================================]]>
@@ -164,7 +164,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- checkoutWithoutFirstName -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:SwagLabCheckOut.CheckOut_testcase@618b19ad]" started-at="2026-10-09T17:39:59 IST" name="tearDown" finished-at="2026-10-09T17:40:00 IST" duration-ms="900" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:SwagLabCheckOut.CheckOut_testcase@618b19ad]" started-at="2026-10-11T17:25:27 IST" name="tearDown" finished-at="2026-10-11T17:25:27 IST" duration-ms="698" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -175,7 +175,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:SwagLabCheckOut.CheckOut_testcase@618b19ad]" started-at="2026-10-09T17:40:00 IST" name="setup" finished-at="2026-10-09T17:40:03 IST" duration-ms="3187" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:SwagLabCheckOut.CheckOut_testcase@618b19ad]" started-at="2026-10-11T17:25:27 IST" name="setup" finished-at="2026-10-11T17:25:30 IST" duration-ms="3045" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -186,7 +186,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="checkoutWithoutDetails()[pri:3, instance:SwagLabCheckOut.CheckOut_testcase@618b19ad]" started-at="2026-10-09T17:40:03 IST" name="checkoutWithoutDetails" finished-at="2026-10-09T17:40:11 IST" duration-ms="7715" status="PASS">
+        <test-method signature="checkoutWithoutDetails()[pri:3, instance:SwagLabCheckOut.CheckOut_testcase@618b19ad]" started-at="2026-10-11T17:25:30 IST" name="checkoutWithoutDetails" finished-at="2026-10-11T17:25:38 IST" duration-ms="7637" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[====================================]]>
@@ -205,7 +205,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- checkoutWithoutDetails -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:SwagLabCheckOut.CheckOut_testcase@618b19ad]" started-at="2026-10-09T17:40:11 IST" name="tearDown" finished-at="2026-10-09T17:40:12 IST" duration-ms="1015" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:SwagLabCheckOut.CheckOut_testcase@618b19ad]" started-at="2026-10-11T17:25:38 IST" name="tearDown" finished-at="2026-10-11T17:25:39 IST" duration-ms="661" status="PASS">
           <params>
             <param index="0">
               <value>
